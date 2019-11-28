@@ -6,7 +6,7 @@
 
 ## After Docker file ready run `docker build -t name_of_your_image .`
 
-## Run the image `docker run -p 8000:80 name_of_your_image -d`
+## Run the image `docker run -p 8000:80 -d name_of_your_image`
 
 ### `docker exec -it 4966937c4102 /bin/bash` for git pull or other command of any container
 
